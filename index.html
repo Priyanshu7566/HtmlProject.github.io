@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 8px;
+        }
+    </style>
+ </head>
+ <body>
+    <h1>Besant Technologies</h1>
+    <h5>HTML PROJECT 1 PRIYANSHU PATEL</h5>
+    <form action="./aboutBesant.html" method="get">
+        <h3>Sign up</h3>
+        <div>
+            <input type="text" id="name" placeholder="Enter your name" minlength="4" maxlength="20" required>
+        </div>
+        <div>
+            <input type="password" placeholder="Enter your Password" id="pwd" minlength="8" maxlength="15"  >
+        </div> 
+        <div>
+            <input type="number" id="Mobile" minlength="10" maxlength="10" placeholder="Enter your mobile number">
+        </div>
+        <div>
+            <input type="email" minlength="7" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="date">Date of birth :</label>
+            <input type="date">
+        </div>
+        <div>
+            Courses :
+            <select name="Courses" id="Courses" >
+                <option value="">Options</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="MySQL">MySQL</option>
+                <option value="">Javascript  </option>
+                <option value="">Power BI</option>
+            </select>
+        </div>
+        <div>
+            <label for="Timing">Timing : </label>
+            <input type="radio" name="Timing" value="Morning">Morning
+            <input type="radio" name="Timing" value="Afternoon">Afternoon
+        </div>
+        <div>
+            <label for="">Batch</label>
+            <input type="radio" name="Batch" id="Weekdays">Weekdays Course
+            <input type="radio" name="Batch" id="weekend">Weekend Course
+        </div>
+        <div>
+            <label for="File">Upload Resume</label>
+            <input type="file">
+        </div>
+        <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  
+    </form>
+    
+ </body>
+ </html>
